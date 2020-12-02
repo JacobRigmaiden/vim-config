@@ -3,9 +3,12 @@ syntax on
 set encoding=utf-8
 set clipboard=unnamedplus
 
-nnoremap <SPACE> <Nop>
 let mapleader = "\<Space>"
-
+imap jk <esc>
+imap kj <esc>
+nmap <leader>wq <esc>:wq<CR>
+nmap <leader>q <esc>:q!<CR>
+nnoremap <Space> <Nop>
 nnoremap <up> <nop>
 nnoremap <down> <nop>
 nnoremap <left> <nop>
