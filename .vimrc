@@ -11,9 +11,9 @@ imap jk <esc>
 imap kj <esc>
 imap <leader>nn <esc>o
 map <leader>vi :tabe ~/.vimrc<CR>
+nnoremap <Space> <Nop>
 
 " Disable arrow key usage in normal and insert mode
-nnoremap <Space> <Nop>
 nnoremap <up> <nop>
 nnoremap <down> <nop>
 nnoremap <left> <nop>
